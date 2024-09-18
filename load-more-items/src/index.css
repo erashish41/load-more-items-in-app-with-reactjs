@@ -25,13 +25,31 @@
   gap: 10px;
 }
 
-button{
+.button-container{
   width: 100px;
   display: flex;
   align-items: center;
+  background-color: #212121;
+  color: #fff;
+  justify-content: center;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.button-container:hover{
+  background-color: #04AA6D;
+  color: #212121;
 }
 
 .product-container img{
   width: 200ox;
   height: 200px;
+}
+
+.navbar{
+  background-color: #555;
+  color: #f4f3ef;
+  display: flex;
+  justify-content: space-between;
 }

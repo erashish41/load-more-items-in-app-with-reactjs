@@ -48,6 +48,10 @@ export const LoadMoreItems = () => {
 
     return (
         <div className="container">
+            <div className="navbar">
+                <h1>Spopify</h1>
+                <span>Sign in  Log in </span>
+            </div>
             <div className="product-container">
                 {
                     products && products.length > 0 
