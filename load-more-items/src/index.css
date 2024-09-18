@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-container{
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 1fr: The value to repeat, which stands for 1 "fractional unit". 
+  The fr unit represents a fraction of the available space in the grid container. */
+}
+
+.product{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid ;
+  gap: 10px;
+}
+
+button{
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.product-container img{
+  width: 200ox;
+  height: 200px;
+}
